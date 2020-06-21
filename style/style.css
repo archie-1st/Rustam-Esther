@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@900&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+html,
+body {
+  margin: 0em;
+  padding: 0em;
+}
+
+.nav ul {
+  margin: 0em;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  padding: 1em;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.links a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: lighter;
+  border-bottom: 1px solid;
+  padding: 0em;
+  margin: 0em;
+}
+
+.main-nav li {
+  margin: 0 1.5%;
+}
+
+.main-header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  background-size: cover;
+  top: 0px;
+}
+
+.Quote {
+  text-align: center;
+  margin: 0em;
+  font-size: 2em;
+  font-family: "Metal Mania", cursive;
+}
+
+.main-section {
+  background-image: url(/pictures/RR2.png);
+  background-size: cover;
+  margin: 0em auto;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 170px;
+  padding: 0em;
+}
+
+.offer {
+  text-align: left;
+  font-size: 30px;
+  color: #ecf0f1;
+  margin: 1em;
+  padding: 0 5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.offer2 {
+  color: #f1c40f;
+  text-align: left;
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
+  font-family: "Merriweather", serif;
+  margin: 0em;
+  padding: 0 1.5em;
+}
+
+.offer-large {
+  font-size: 70px;
+}
+
+.offer3 {
+  text-align: center;
+  font-size: 25px;
+  color: #ecf0f1;
+}
+
+.offer-link {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0em;
+}
+
+.another-section {
+  background-image: url(/pictures/imports.png);
+  margin-top: 0em;
+  padding: 0em;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h4 {
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.search-field {
+  color: black;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+.Location {
+  width: 200px;
+}
+.search-btn {
+  width: 150px;
+  height: 50px;
+  background-color:#F4D03F;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+.search-btn:hover{
+  background:#ffc107;
+  cursor: pointer;
+}
+.form-box{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
