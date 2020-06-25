@@ -59,9 +59,11 @@ body {
 }
 
 .main-section {
+ 
   background-image: url(/pictures/RR2.png);
   background-size: cover;
   margin: 0em auto;
+  
 }
 
 .container {
@@ -69,6 +71,7 @@ body {
   margin-top: 170px;
   padding: 0em;
 }
+
 
 .offer {
   text-align: left;
@@ -87,6 +90,7 @@ body {
   font-family: "Merriweather", serif;
   margin: 0em;
   padding: 0 1.5em;
+
 }
 
 .offer-large {
@@ -94,21 +98,40 @@ body {
 }
 
 .offer3 {
+  margin: 0 100px;
   text-align: center;
-  font-size: 25px;
+  font-size: 18px;
   color: #ecf0f1;
 }
 
 .offer-link {
-  text-align: center;
-  vertical-align: middle;
-  padding: 0;
-  margin: 0em;
+  position: absolute;
+top: 100%;
+left: 50%;
+color: white;
+text-decoration: none;
+border: 2px solid #ffff;
+padding: 10px 30px;
+border-radius: 8px;
+margin-top: 40px;
+
 }
+.offer-link:before{
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  height: 50px;
+  width: 50px;
+  }
+  .offer-link:hover {
+    background: rgba(255, 255, 255, .5);
+    cursor: pointer;
+  }
+
 
 .another-section {
   background-image: url(/pictures/imports.png);
-  margin-top: 0em;
+  margin-top: 20px;
   padding: 0em;
   background-size: cover;
   background-position: center;
@@ -143,17 +166,105 @@ h4 {
 .search-btn {
   width: 150px;
   height: 50px;
-  background-color:#F4D03F;
+  background-color: #f4d03f;
   border: none;
   outline: none;
   padding: 10px;
   border-radius: 25px;
 }
-.search-btn:hover{
-  background:#ffc107;
+.search-btn:hover {
+  background: #ffc107;
   cursor: pointer;
 }
-.form-box{
+.form-box {
   background: rgba(0, 0, 0, 0.5);
   padding: 30px;
+  position: relative;
+  top: 150px;
 }
+.user{
+  margin: 20px;
+  padding: 0em;
+  width: 100px;
+  height: 100px;
+  top: 30px;
+}
+
+.icons{
+  background-image: url(/pictures/Tesla-Roadster-103.jpg);
+  text-align: center;
+  margin-top: 180px;
+  filter: blur(10);
+}
+.buy{
+  margin: 20px;
+  padding: 0em;
+  width: 100px;
+  height: 100px;
+  
+}
+.payment{
+  margin: 20px;
+  padding: 0em;
+  width: 100px;
+  height: 100px;
+  
+}
+.car{
+  margin: 20px;
+  padding: 0em;
+  width: 100px;
+  height: 100px;
+ 
+}
+.arrow{
+  margin: 20px;
+  padding: 0em;
+  width: 100px;
+  height: 50px;
+  
+}
+.link-text p{
+  display: inline;
+  text-align: center;
+  padding: 65px;
+  color: rgb(131, 58, 58);
+  font-size: 30px;
+}
+.contacts{
+  text-align: center;
+}
+.contacts p{
+  font-size: 11px;
+  display: inline;
+  padding: 5px;
+}
+.img2{
+  width: 20px;
+  height: 20px;
+  margin-top: -30px;
+  padding: 0em;
+  left: 30px;
+}
+.info{
+  text-align: center;
+}
+.icons2{
+  text-align: center;
+  margin-top: 10px;
+  padding: 0em;
+ 
+}
+.vk {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
