@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Anton&family=Merriweather:wght@900&display=swap");
+body {
+    font-family: "Raleway", sans-serif;
+    color: black;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+           <div class="links">
+            <ul>
+                <li><i class="fa fa-home"></i>
+                <a href="/Rustam-Esther-master/index.html">Home</a>
+            </li>
+                <li>
+                    
+                    <a href="/Rustam-Esther-master/Links/About.html">About</a>
+                    <li>
+                    <a href="/Rustam-Esther-master/Links/Landing.html">Landing</a>
+                </li>
+                <li>
+                    <a href="/Rustam-Esther-master/Links/Financing.html">Financing</a>
+                </li>
+                
+                <li><i class="fa fa-phone"></i>
+                    <a href="/Rustam-Esther-master/Links/Contact.html">Contact</a>
+                </li>
+
+                <li>
+                    <a href="/Rustam-Esther-master/Links/Basket.html"><button>&#128722</button></a>
+                </li>
+
+            </ul>
+        </div>
+        </nav>
+     <br>
+
+    <div class="about-section">
+      <h1>About Us</h1>
+      <p>There’s more to being an automotive company than building cars, trucks and SUVs. To us, quality, safety and innovation are just as important as — and integral parts of — every vehicle that drives out of our plants. So, when you join the family, you’re really joining a 100-year-old practice of protection, caring for others and evolving technology.</p>
+    </div>
+    <br>
+    <h2 style="text-align: center;">Our Mission</h2>
+        <div class="Our Mission">
+            <img src="/Rustam-Esther-master/pictures/Tesla7.png" alt="" class="mission">
+
+        </div>
+    </h2>
+
+    
+    <h3 style="text-align:center">Our Team</h3>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="/Rustam-Esther-master/pictures/Jane Doe.jpg" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>Jane Doe</h2>
+            <p class="title">CEO & Founder</p>
+            <p>Manages overall operations and resources in the company.</p>
+            <p>jane2011@yahoo.com</p>
+            <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/Rustam-Esther-master/pictures/Mike Ross.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Sales Manager/Sales Consultant.</p>
+        <p>Meets with customers in a sales environment to drive product sales and knowledge.</p>
+        <p>mike2020@yahoo.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+        <img src="/Rustam-Esther-master/pictures/John.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>John Doe</h2>
+          <p class="title">Business Development Representative</p>
+          <p>Responsible for expanding a company's customer base.</p>
+          <p>john2019@yahoo.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+  </html>
+
+</html>
