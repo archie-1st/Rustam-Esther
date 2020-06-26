@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="/style/contact.css">
+    
+</head>
+<body>
+    <wrapper>
+        <div class="dws-wrapper">
+             <div class="dws-container">
+                <h3>What's your question?</h3>
+                <form class="form-box">
+                    <div class="inputbox">
+                    <label class="labeltext">Your name:</label>
+                    <input type="text" class="userinput" required>
+                </div>
+                <div class="inputbox">
+                    <label class="labeltext">Email:</label>
+                    <input type="email" class="userinput" required>
+                </div>
+                <div class="inputbox">
+                    <label class="labeltext">Phone number:</label>
+                    <input type="phone" class="userinput" required pattern="+number">
+                </div>
+                <div class="inputbox">
+                    <label class="labeltext">Your message:</label>
+                    <textarea class="userinput" required></textarea>
+                </div>
+                <div class="inputbox">
+                    <input type="checkbox" required>
+                    <label class="doc">I'm agree to the precessing of my <a href="#">personal data</a> </label>
+                 </div>
+                 <input type="submit" value="Send" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </wrapper>
+    <script>
+        $(".userinput").focus(function() {
+            $(this).parent().addClass("focus");
+        }).blur(function(){
+             if($(this).val()==''){
+                 $(this).parent().removeClass('focus');
+             } 
+                
+            }
+        )
+    </script>
+</body>
+</html>

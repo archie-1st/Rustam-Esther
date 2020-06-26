@@ -1,0 +1,100 @@
+body{
+margin: 0em;
+padding: 0em;
+font-family: Arial, sans-serif;
+background-image: url(/style/images/business.png);
+background-size: cover;
+
+}
+
+.dws-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dws-container{
+    width: 350px;
+    overflow: hidden;
+}
+.form-box{
+    padding: 30px;
+    border: 4px solid #8a36a5;
+    background: white;
+
+}
+.dws-container h3{
+    background: #8a36a5;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    width: 85%;
+    cursor: pointer;
+}
+.inputbox{
+    position: relative;
+    margin: 0 0 20px;
+
+
+}
+.labeltext{
+    position: absolute;
+    line-height: 55px;
+    font-size: 18px;
+    color: #a5a5a5;
+    transition: .5s;
+}
+.focus .labeltext {
+transform: translateY(-30px);
+font-size: 14px;
+color: #d33ebc;
+
+}
+.userinput{
+    position: relative;
+    background: transparent;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: #292d5f;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid blue;
+
+
+}
+textarea.userinput {
+    height: 100px;
+    margin-top: 12px;
+}
+.doc,
+.doc a{
+    color: #848585;
+
+}
+.doc a:hover{
+    text-decoration:none;
+    color: #b33ebc;
+}
+.submit-btn{
+    background: #8a36a5;
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 85px;
+    font-size: 18px;
+    border-radius: 10px 10px 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.submit-btn:hover{
+    background: #da6cc9;
+
+}
+
+   
